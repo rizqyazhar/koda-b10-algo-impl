@@ -99,6 +99,7 @@ A --> C --> D --> E --> F --> G --> H --> I --> B
 ```
 
 ### Pseudocode 
+```
 DECLARE suhuFahrenheit : REAL
 DECLARE suhuReamur: REAL
 DECLARE suhuKelvin: REAL
@@ -112,4 +113,5 @@ suhuKelvin <- suhuCelcius + 273.15
 OUTPUT suhuFahrenheit 
 OUTPUT suhuReamur 
 OUTPUT suhuKelvin
+'''
 
