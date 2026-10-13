@@ -95,7 +95,7 @@ G@{shape: lean-r, label: "suhuFahrenheit"}
 H@{shape: lean-r, label: "suhuReamur"}
 I@{shape: lean-r, label: "suhuKelvin"}
 
-A --> C --> D --> E --> F --> G --> H --> I B
+A --> C --> D --> E --> F --> G --> H --> I --> B
 ```
 
 ### Pseudocode 
