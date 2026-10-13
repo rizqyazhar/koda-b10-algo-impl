@@ -1,0 +1,20 @@
+DECLARE hargaDenda : INTEGER
+DECLARE jumlahHari : INTEGER
+DECLARE totalDenda : REAL
+DECLARE hargaDiskon : REAL
+DECLARE tipeAnggota : STRING
+
+IF jumlahHari > 15 THEN
+  hargaDenda <- hargaDenda * 2
+  totalDenda <- hargaDenda * jumlahHari
+  OUTPUT totalDenda
+ELSE
+  IF tipeAnggota = "member" THEN
+    hargaDiskon <- hargaDenda * 0.2
+    totalDenda <- jumlahHari * (hargaDenda - hargaDiskon)
+    OUTPUT totalDenda
+  ELSE
+    totalDenda <- jumlahHari * hargaDenda
+    OUTPUT totalDenda
+  ENDIF
+ENDIF
