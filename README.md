@@ -39,9 +39,9 @@ flowchart LR
 
   A --> E --> F --> G --> C --iya--> I --> J 
   C --tidak--> D --iya--> K --> L
-  D --tidak--> M 
+  D --tidak--> J 
 
-  J & L & M --> H --> B
+  J & L  --> H --> B
 ```
 
 ### Pseudocode
